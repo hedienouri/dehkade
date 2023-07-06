@@ -1,0 +1,21 @@
+header {
+    background-color: rgb(150, 150, 225);
+    border: 2px solid rgb(120, 120, 208);
+}
+
+#menu {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+
+#active {
+    background-color: rgb(157, 118, 153);
+    color: black;
+}
