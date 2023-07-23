@@ -32,10 +32,60 @@ header {
     width: 80%;
     margin-top: 20px;
     text-align: center;
+
 }
 
 .img-item {
     border: 2px;
     padding: 10px;
     border-radius: 20px;
+}
+
+@media only screen and (max-width: 576px) {
+    .imgBar {
+        width: 100%;
+    }
+
+    .img-item {
+        width: 90% !important;
+    }
+
+}
+
+@media only screen and (min-width: 576px) {
+    .img-item {
+        width: 420px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .img-item {
+        width: 500px !important;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .img-item {
+        width: 350px !important;
+        height: 320px !important;
+        opacity: 70%;
+    }
+
+    .img-item:hover {
+        opacity: 100%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .img-item {
+        width: 450px !important;
+        height: 320px !important;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .img-item {
+        width: 530px !important;
+        height: 320px !important;
+    }
 }
