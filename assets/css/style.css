@@ -1,5 +1,6 @@
 body {
     background-color: rgb(34, 40, 49);
+    margin: 0;
 }
 
 
@@ -24,4 +25,17 @@ header {
 #active {
     background-color: rgba(238, 238, 238, 0.5);
     border-radius: 5px;
+}
+
+.imgBar {
+    margin: auto;
+    width: 80%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.img-item {
+    border: 2px;
+    padding: 10px;
+    border-radius: 20px;
 }
