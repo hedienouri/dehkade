@@ -89,3 +89,39 @@ header {
         height: 320px !important;
     }
 }
+
+.container {
+    width: 85%;
+    margin: auto;
+    margin-top: 10px;
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: center;
+}
+
+.content-box {
+    width: 68%;
+}
+
+.Gimg-box {
+    width: 28%;
+}
+
+
+.H {
+    font-size: 25px;
+}
+
+
+P {
+    font-size: 20PX;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Gimg-item {
+    padding-top: 10px;
+}
