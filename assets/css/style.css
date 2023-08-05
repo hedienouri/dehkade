@@ -41,6 +41,83 @@ header {
     border-radius: 20px;
 }
 
+
+
+.container {
+    width: 85%;
+    margin: auto;
+    margin-top: 10px;
+    background-color: rgb(57, 62, 70);
+    color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: center;
+    box-shadow: -3px -3px 4px 1px rgb(238, 238, 238, 0.5),3px 3px 4px 1px rgba(202, 193, 193, 0.5);
+}
+
+.content-box {
+    width: 68%;
+}
+
+.Gimg-box {
+    width: 28%;
+}
+
+
+.H {
+    font-size: 25px;
+}
+
+
+P {
+    font-size: 20PX;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Gimg-item {
+    padding-top: 10px;
+}
+
+.cnt-box {
+    max-width: 40%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    color: rgb(238, 238, 238);
+    background-color: rgb(57, 62, 70, 0.5);
+    padding: 40px;
+    box-shadow: -5px -5px 5px 1px rgb(238, 238, 238, 0.5),5px 5px 5px 1px rgba(202, 193, 193, 0.5);
+}
+
+h2 {
+    text-shadow: 2px 3px 3px;
+}
+
+.message {
+    margin: auto;
+    margin-top: 50px;
+}
+
+form {
+    text-align: right;
+}
+
+input {
+    border-radius: 5px;
+    height: 30px;
+}
+
+input:last-of-type {
+    width: 100px;
+}
+
+#description {
+    height: 100px;
+}
+
 @media only screen and (max-width: 576px) {
     .imgBar {
         width: 100%;
@@ -88,40 +165,4 @@ header {
         width: 530px !important;
         height: 320px !important;
     }
-}
-
-.container {
-    width: 85%;
-    margin: auto;
-    margin-top: 10px;
-    background-color: beige;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-items: stretch;
-    align-content: center;
-}
-
-.content-box {
-    width: 68%;
-}
-
-.Gimg-box {
-    width: 28%;
-}
-
-
-.H {
-    font-size: 25px;
-}
-
-
-P {
-    font-size: 20PX;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.Gimg-item {
-    padding-top: 10px;
 }
